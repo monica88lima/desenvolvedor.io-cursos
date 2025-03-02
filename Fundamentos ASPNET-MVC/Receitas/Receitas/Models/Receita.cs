@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Receitas.Models
 {
@@ -21,7 +23,7 @@ namespace Receitas.Models
 
         [DataType(DataType.Date)]
         [Display(Name = "Data da Publicação")]
-        public DateTime DataPublicacao { get; set; } = DateTime.Now;
+        public DateTime DataPublicacao { get; set; } 
 
         [Required(ErrorMessage = "O tempo médio de preparo é obrigatório.")]
         [DisplayFormat(DataFormatString = @"{0:hh\:mm}", ApplyFormatInEditMode = true)]

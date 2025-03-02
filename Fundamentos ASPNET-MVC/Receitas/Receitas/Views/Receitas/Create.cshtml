@@ -1,13 +1,14 @@
 ﻿@model Receitas.Models.Receita
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Cadastre aqui sua receita";
 }
 
-<h1>Create</h1>
+<h1>@ViewData["Title"]</h1>
 
-<h4>Receita</h4>
+<h4>Nova</h4>
 <hr />
+<h4>Cadastre sua Receita</h4>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -18,9 +19,19 @@
                 <span asp-validation-for="Titulo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Ingredientes" class="control-label"></label>
-                <input asp-for="Ingredientes" class="form-control" />
-                <span asp-validation-for="Ingredientes" class="text-danger"></span>
+                <label asp-for="Ingredientes" class="control-label">Ingredientes</label>
+                 <div id="ingredientes-container">
+                   
+                    <div class="ingrediente-item">
+                       
+                        <input type="hidden" asp-for="Ingredientes" name="Ingredientes" id="ingredientes" class="form-control" />
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-secondary" id="add-ingrediente"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Adicione Ingredientes
+                </button>
             </div>
             <div class="form-group">
                 <label asp-for="ModoPreparo" class="control-label"></label>
@@ -29,12 +40,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="DataPublicacao" class="control-label"></label>
-                <input asp-for="DataPublicacao" class="form-control" />
+                <input asp-for="DataPublicacao" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
                 <span asp-validation-for="DataPublicacao" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="TempoPreparo" class="control-label"></label>
-                <input asp-for="TempoPreparo" class="form-control" />
+                <input asp-for="TempoPreparo" class="form-control" type="time"/>
                 <span asp-validation-for="TempoPreparo" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
@@ -43,15 +54,52 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-warning">Voltar</a>
             </div>
         </form>
     </div>
 </div>
+<script>
+    let ingredienteCount = 1;
+    let lstIngrediente = [];
+    document.getElementById('add-ingrediente').addEventListener('click', function () {
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+        let ingredientesContainer = document.getElementById('ingredientes-container');
+        let newIngrediente = document.createElement('div');
+        newIngrediente.classList.add('ingrediente-item');
+        newIngrediente.innerHTML = `
+                <input id="Ingredientes[${ingredienteCount}]" class="form-control" />
+            `;
+        ingredientesContainer.appendChild(newIngrediente);
+        obterIngredientes(`Ingredientes[${ingredienteCount}]`);
+        ingredienteCount++;
+    });
+
+    function obterIngredientes(id) {
+        // Seleciona todos os campos de input com o nome "Ingredientes[]"
+        var ingredientesInputs = document.getElementById(id);
+
+        // Cria uma lista para armazenar os valores dos inputs
+        var ingredientesArray = [];
+
+
+        if (ingredientesInputs.value.trim() !== "") {  // Evita adicionar campos vazios
+            ingredientesArray.push(ingredientesInputs.value.trim());
+        }
+        
+
+        // Monta uma string separada por vírgulas com os ingredientes
+        var ingredientesString = ingredientesArray.join(", ");
+
+        document.getElementById('Ingredientes').value = ingredientesString;
+        console.log(document.getElementById('Ingredientes').value);
+        return ingredientesString;
+    }
+
+
+</script>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

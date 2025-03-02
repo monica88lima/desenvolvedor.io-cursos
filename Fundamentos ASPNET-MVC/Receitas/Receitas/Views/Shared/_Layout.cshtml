@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Receitas</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico.ico">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Receitas.styles.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/7cf27a417c.js" crossorigin="anonymous"></script>
@@ -21,10 +22,10 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Receitas" asp-action="Index">Receitas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Receitas" asp-action="Index">Minhas Receitas</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -39,8 +40,10 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Receitas - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container text-center">
+            &copy; 2025 - Minhas Receitas - Criado por Monica Lima
+            <a href="https://github.com/monica88lima" target="_blank"><img src="./img/git.png" alt="gitHub" width="26"></a>
+            <a href="https://www.linkedin.com/in/monicalima/" target="_blank"><img src="./img/linkedin.png" alt="linkedin" width="26"></a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

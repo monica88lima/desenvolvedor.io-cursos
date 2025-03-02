@@ -9,8 +9,28 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\favicon.ico.ico",
+      "PackagePath": "staticwebassets\\favicon.ico.ico"
+    },
+    {
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\img\\doce.jpg",
+      "PackagePath": "staticwebassets\\img\\doce.jpg"
+    },
+    {
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\img\\git.png",
+      "PackagePath": "staticwebassets\\img\\git.png"
+    },
+    {
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\img\\lasanha.jpg",
+      "PackagePath": "staticwebassets\\img\\lasanha.jpg"
+    },
+    {
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\img\\linkedin.png",
+      "PackagePath": "staticwebassets\\img\\linkedin.png"
+    },
+    {
+      "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\img\\receitas.png",
+      "PackagePath": "staticwebassets\\img\\receitas.png"
     },
     {
       "Id": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\js\\site.js",

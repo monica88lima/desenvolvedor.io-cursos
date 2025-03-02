@@ -55,6 +55,7 @@ namespace Receitas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Titulo,Ingredientes,ModoPreparo,DataPublicacao,TempoPreparo,Ativo")] Receita receita)
         {
+            ModelState.Remove("IngradientesJson");
             if (ModelState.IsValid)
             {
                 _context.Add(receita);
