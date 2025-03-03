@@ -16,7 +16,10 @@ Curso: Fundamentos do AspNet MVC
 - **Bootstrap** para o design responsivo
 - Banco de dados **LocalDB** para armazenamento das receitas
 
-![Título do vídeo](https://img.youtube.com/vi/CmpDc9EUKKg/0.jpg)](https://www.youtube.com/watch?v=CmpDc9EUKKg)
+### Vídeo de Demonstração
+   * :triangular_flag_on_post: Clique na imagem
+    * [![Vídeo de Demonstração](https://img.youtube.com/vi/CmpDc9EUKKg/0.jpg)](https://www.youtube.com/watch?v=CmpDc9EUKKg)
+
 
 ## Imagens do Projeto
 ![HOME](./imagens/home.png)
