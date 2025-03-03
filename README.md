@@ -22,11 +22,11 @@ Curso: Fundamentos do AspNet MVC
 
 
 ## Imagens do Projeto
-![HOME](./imagens/home.png)
+![HOME](home.png)
 
-![EDITAR](./imagens/Editar.png)
+![EDITAR](Editar.png)
 
-![CADASTRAR](./imagens/cadastrar.png)
+![CADASTRAR](cadastrar.png)
 
-![EXIBIR](./imagens/exibir.png)
+![EXIBIR](exibir.png)
 
