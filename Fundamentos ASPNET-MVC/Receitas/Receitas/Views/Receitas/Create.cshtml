@@ -20,16 +20,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="Ingredientes" class="control-label">Ingredientes</label>
-                 <div id="ingredientes-container">
-                   
+                <span asp-validation-for="Ingredientes" class="text-danger"></span>
+                <div id="ingredientes-container">
                     <div class="ingrediente-item">
-                       
-                        <input type="hidden" asp-for="Ingredientes" name="Ingredientes" id="ingredientes" class="form-control" />
+
+                        <input type="hidden" asp-for="Ingredientes" name="Ingredientes" id="Ingredientes" class="form-control" />
                     </div>
                 </div>
-
-                <button type="button" class="btn btn-secondary" id="add-ingrediente"
-                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                <button type="button" class="btn btn-secondary" id="add-ingrediente" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                     Adicione Ingredientes
                 </button>
             </div>
@@ -45,13 +43,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="TempoPreparo" class="control-label"></label>
-                <input asp-for="TempoPreparo" class="form-control" type="time"/>
+                <input asp-for="TempoPreparo" class="form-control" type="time" />
                 <span asp-validation-for="TempoPreparo" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+@*             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Ativo" /> @Html.DisplayNameFor(model => model.Ativo)
                 </label>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="NivelDificuldade" class="control-label"></label>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <select asp-for="NivelDificuldade" class="form-select" asp-items="Html.GetEnumSelectList<Receitas.Models.Enum.ENivelDificuldade>()"></select>
+
+                <span asp-validation-for="NivelDificuldade" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Enviar" class="btn btn-primary" />
@@ -63,44 +69,47 @@
 <script>
     let ingredienteCount = 1;
     let lstIngrediente = [];
-    document.getElementById('add-ingrediente').addEventListener('click', function () {
 
+    document.getElementById('add-ingrediente').addEventListener('click', function () {
         let ingredientesContainer = document.getElementById('ingredientes-container');
         let newIngrediente = document.createElement('div');
         newIngrediente.classList.add('ingrediente-item');
         newIngrediente.innerHTML = `
-                <input id="Ingredientes[${ingredienteCount}]" class="form-control" />
+                <input id="Ingrediente-${ingredienteCount}" class="form-control" />
             `;
         ingredientesContainer.appendChild(newIngrediente);
-        obterIngredientes(`Ingredientes[${ingredienteCount}]`);
         ingredienteCount++;
     });
 
-    function obterIngredientes(id) {
-        // Seleciona todos os campos de input com o nome "Ingredientes[]"
-        var ingredientesInputs = document.getElementById(id);
-
+    function updateIngredientesString() {
         // Cria uma lista para armazenar os valores dos inputs
-        var ingredientesArray = [];
+        let ingredientesArray = [];
 
-
-        if (ingredientesInputs.value.trim() !== "") {  // Evita adicionar campos vazios
-            ingredientesArray.push(ingredientesInputs.value.trim());
-        }
-        
+        document.querySelectorAll('.ingrediente-item input').forEach(input => {
+            if (input.value.trim() !== "") {  // Evita adicionar campos vazios
+                ingredientesArray.push(input.value.trim());
+            }
+        });
 
         // Monta uma string separada por vírgulas com os ingredientes
-        var ingredientesString = ingredientesArray.join(", ");
-
+        let ingredientesString = ingredientesArray.join(", ");
         document.getElementById('Ingredientes').value = ingredientesString;
-        console.log(document.getElementById('Ingredientes').value);
+        console.log(ingredientesString);
+
         return ingredientesString;
     }
+
+    // Atualiza a string de ingredientes ao enviar o formulário
+    document.querySelector('form').addEventListener('submit', function () {
+        updateIngredientesString();
+    });
 
 
 </script>
 
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

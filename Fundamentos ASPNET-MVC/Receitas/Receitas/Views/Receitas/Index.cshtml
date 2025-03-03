@@ -1,34 +1,50 @@
 ﻿@model IEnumerable<Receitas.Models.Receita>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Suas Receitas";
 }
 
-<h1>Index</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create"> <i class="fa-solid fa-plus"></i> </>Nova Receita</a>
 </p>
+<form asp-action="Index" method="get" >
+    <div class="form-group">
+       @*  <label for="titulo">Pesquisar por título</label> *@
+        <div class="input-group">
+          
+            <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Digite o título da sua receita" />
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-primary">Pesquisar</button>
+            </div>
+        </div>
+    </div>
+    
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Titulo)
             </th>
-            <th>
+            @* <th>
                 @Html.DisplayNameFor(model => model.Ingredientes)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ModoPreparo)
-            </th>
+            </th> *@
             <th>
                 @Html.DisplayNameFor(model => model.DataPublicacao)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.TempoPreparo)
             </th>
-            <th>
+           @*  <th>
                 @Html.DisplayNameFor(model => model.Ativo)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.NivelDificuldade)
             </th>
             <th></th>
         </tr>
@@ -39,25 +55,29 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Titulo)
             </td>
-            <td>
+            @* <td>
                 @Html.DisplayFor(modelItem => item.Ingredientes)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ModoPreparo)
-            </td>
+            </td> *@
             <td>
                 @Html.DisplayFor(modelItem => item.DataPublicacao)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TempoPreparo)
             </td>
-            <td>
+           @*  <td>
                 @Html.DisplayFor(modelItem => item.Ativo)
-            </td>
+            </td> *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.NivelDificuldade)
+                </td>
+
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" title="Editar"class="btn btn-outline-warning" asp-route-id="@item.Id"><span class="fa-regular fa-pen-to-square"></span></a> |
+                    <a asp-action="Details" title="Detalhes"class="btn btn-outline-info" asp-route-id="@item.Id"><span class="fa fa-search"></span></a> |
+                    <a asp-action="Delete" title="Excluir" class="btn btn-outline-danger" asp-route-id="@item.Id"><span class="fa fa-trash"></span></a>
             </td>
         </tr>
 }

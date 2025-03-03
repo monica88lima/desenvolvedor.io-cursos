@@ -26,3 +26,6 @@ body {
     max-height: 500px;
     object-fit: cover;
 }
+.form-group {
+    padding-bottom: 16px;
+}

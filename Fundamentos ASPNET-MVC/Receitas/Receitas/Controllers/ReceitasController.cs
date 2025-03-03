@@ -21,9 +21,17 @@ namespace Receitas.Controllers
         }
 
         
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string titulo)
         {
-            return View(await _context.Receita.ToListAsync());
+
+            if (string.IsNullOrWhiteSpace(titulo))
+            {
+                return View(await _context.Receita.Where(e => e.Ativo == true).ToListAsync());
+            }
+            //return View(await _context.Receita.ToListAsync());
+            return View(await Pesquisar(titulo));
+
+
         }
 
         [Route("detalhes/{id:int}")]
@@ -53,9 +61,9 @@ namespace Receitas.Controllers
         [Route("novaReceita")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Ingredientes,ModoPreparo,DataPublicacao,TempoPreparo,Ativo")] Receita receita)
+        public async Task<IActionResult> Create([Bind("Id,Titulo,Ingredientes,ModoPreparo,DataPublicacao,TempoPreparo, NivelDificuldade")] Receita receita)
         {
-            ModelState.Remove("IngradientesJson");
+            receita.Ativo = true;
             if (ModelState.IsValid)
             {
                 _context.Add(receita);
@@ -84,7 +92,7 @@ namespace Receitas.Controllers
         [Route("editar/{id:int}")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Ingredientes,ModoPreparo,DataPublicacao,TempoPreparo,Ativo")] Receita receita)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Ingredientes,ModoPreparo,DataPublicacao,TempoPreparo,Ativo, NivelDificuldade")] Receita receita)
         {
             if (id != receita.Id)
             {
@@ -150,6 +158,18 @@ namespace Receitas.Controllers
         private bool ReceitaExists(int id)
         {
             return _context.Receita.Any(e => e.Id == id);
+        }
+
+        //[Route("pesquisar")]
+        private async Task<List<Receita>> Pesquisar(string titulo)
+        {
+            if (!String.IsNullOrWhiteSpace(titulo))
+            {
+                return await _context.Receita.Where(x => x.Titulo.Contains(titulo)).ToListAsync();
+                
+            }
+            
+            return new();
         }
     }
 }

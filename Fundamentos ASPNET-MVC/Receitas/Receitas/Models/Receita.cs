@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Receitas.Models.Enum;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -31,7 +32,12 @@ namespace Receitas.Models
         public TimeSpan TempoPreparo { get; set; }
 
       
-        public bool Ativo {  get; set; } = true;
+        public bool Ativo {  get; set; } 
+
+        [Required(ErrorMessage = "Campo obrigatório {0}")]
+        [Range(0, 2, ErrorMessage = "Por favor, selecione uma das opções válidas.")]
+        [Display(Name = "Nível Dificuldade")]
+        public ENivelDificuldade NivelDificuldade { get; set; }
 
     }
 }

@@ -1,10 +1,10 @@
 ﻿@model Receitas.Models.Receita
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
-<h1>Details</h1>
+<h1>@ViewData["Title"]</h1>
 
 <div>
     <h4>Receita</h4>
@@ -46,9 +46,24 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Ativo)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NivelDificuldade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NivelDificuldade)
+        </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+   
+    <div class="form-group">
+       
+        <a asp-action="Index" class="btn btn-warning">Voltar</a>
+        <button class="btn btn-outline-secondary" onclick="printPage()">Imprimir Página</button>
+    </div>
 </div>
+<script>
+    function printPage() {
+        window.print();
+    }
+</script>

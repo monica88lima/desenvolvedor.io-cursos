@@ -1,10 +1,10 @@
 ﻿@model Receitas.Models.Receita
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edite as informações da sua receita";
 }
 
-<h1>Edit</h1>
+<h1>@ViewData["Title"]</h1>
 
 <h4>Receita</h4>
 <hr />
@@ -44,15 +44,21 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label asp-for="NivelDificuldade" class="control-label"></label>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <select asp-for="NivelDificuldade" class="form-select" asp-items="Html.GetEnumSelectList<Receitas.Models.Enum.ENivelDificuldade>()"></select>
+
+                <span asp-validation-for="NivelDificuldade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-warning">Voltar</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
