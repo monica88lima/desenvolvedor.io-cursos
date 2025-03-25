@@ -3,20 +3,84 @@
   "WorkspaceRootPath": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\receitas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\controllers\\receitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\controllers\\receitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\receitas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\models\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\receitas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\receitas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\receitas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\models\\enum\\eniveldificuldade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\models\\enum\\eniveldificuldade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|c:\\dev\\desenvolvedor.io-cursos\\fundamentos aspnet-mvc\\receitas\\receitas\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D53023D3-A5BE-408D-964E-05F1AF424D2F}|Receitas\\Receitas.csproj|solutionrelative:receitas\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +98,262 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250224133320_PrimeiraMigracao.cs",
-              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs",
-              "RelativeDocumentMoniker": "Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs",
-              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs",
-              "RelativeToolTip": "Receitas\\Data\\Migrations\\20250224133320_PrimeiraMigracao.cs",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:33:20.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Receitas\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Receitas\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T13:29:00.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReceitasController.cs",
-              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\ReceitasController.cs",
-              "RelativeDocumentMoniker": "Receitas\\Controllers\\ReceitasController.cs",
-              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\ReceitasController.cs",
-              "RelativeToolTip": "Receitas\\Controllers\\ReceitasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:20:10.993Z",
+              "WhenOpened": "2025-03-03T17:12:31.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T17:01:18.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T11:25:38.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T11:25:33.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T17:01:13.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Receitas\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T17:00:35.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T11:26:03.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Receitas\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Receitas\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:52:14.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Receitas\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Receitas\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:07:54.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Receitas\\Index.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Index.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Receitas\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T13:15:40.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReceitasController.cs",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\ReceitasController.cs",
+              "RelativeDocumentMoniker": "Receitas\\Controllers\\ReceitasController.cs",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Controllers\\ReceitasController.cs",
+              "RelativeToolTip": "Receitas\\Controllers\\ReceitasController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:15:51.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Receitas\\Create.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Create.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Receitas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T12:31:58.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Receitas\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Receitas\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T13:04:26.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Receita.cs",
               "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\Receita.cs",
               "RelativeDocumentMoniker": "Receitas\\Models\\Receita.cs",
               "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\Receita.cs",
               "RelativeToolTip": "Receitas\\Models\\Receita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:59:49.519Z",
+              "WhenOpened": "2025-03-02T12:31:54.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ENivelDificuldade.cs",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\Enum\\ENivelDificuldade.cs",
+              "RelativeDocumentMoniker": "Receitas\\Models\\Enum\\ENivelDificuldade.cs",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Models\\Enum\\ENivelDificuldade.cs",
+              "RelativeToolTip": "Receitas\\Models\\Enum\\ENivelDificuldade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:06:55.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Receitas\\Edit.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Edit.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Receitas\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T14:56:39.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Receitas\\Details.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Details.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Receitas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T14:59:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T11:18:56.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Receitas\\Delete.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Receitas\\Delete.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Receitas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T14:59:58.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Receitas\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\dev\\desenvolvedor.io-cursos\\Fundamentos ASPNET-MVC\\Receitas\\Receitas\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Receitas\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T11:25:28.357Z",
               "EditorCaption": ""
             }
           ]
