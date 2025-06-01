@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-navegacao',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './navegacao.component.html',
   styleUrl: './navegacao.component.scss'
 })
