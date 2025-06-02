@@ -5,6 +5,7 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
 import { ProdutosComponent } from './componentes/produtos/produtos.component';
 import { FeaturesComponent } from './componentes/features/features.component';
 import { NgModule } from '@angular/core';
+import { DataBComponent } from './dataBind/data-b/data-b.component';
 
 export const routes: Routes = [
   {	path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ export const routes: Routes = [
    { path: 'sobre', component: SobreComponent},
    { path: 'produtos', component: ProdutosComponent},
    { path: 'features', component: FeaturesComponent},
+   { path: 'dataB', component: DataBComponent},
 ];
 
 
